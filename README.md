@@ -17,3 +17,10 @@
 
 >ilce kolonunda domain kullanıldığı için çalışılan ilçenin UAVT kodunu yazmak gerekiyor. Sancaktepe için ilce = 2054 last_edited_date için tarih girildiğinde o tarihteki 00:00:00 satini kabul ediyor. Gece 12'den sonra yapılan >editlerin tümü görünür.
 >BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM
+
+
+## Faydalı Linkler
+1. [Harita İstanbul](harita.istanbul)
+2. [İBB Şehir Haritası](https://sehirharitasiapi.ibb.gov.tr)
+3. [İBB Şehir Haritası API Reference](https://sehirharitasiapi.ibb.gov.tr/developer/index.html)
+4. 

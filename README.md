@@ -7,7 +7,7 @@
 
 - Map görünümünde selected features sayısının yazdığı yere tıklamak o seçili objelere zoom yapar.
 - ![Map görünümü selected features alanı](https://raw.githubusercontent.com/aronnie-droid/public-photos-documents-etc/refs/heads/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-02-23%20101533.png)
-- Çok sayıda katman açıkken zoom out vs yapma ve **map**in yüklenmesini bekleme gibi bir durumla karşılaştığımda buranın hemen solundaki pause tuşu renderlamayı durdurur. Pek işlevseldir.
+- Çok sayıda katman açıkken zoom out vs yapma ve **map**in yüklenmesini bekleme gibi bir durumla karşılaştığımda buranın hemen solundaki pause tuşu ⏸️ renderlamayı durdurur. Pek işlevseldir.
 
 ## Kodlamalık
 

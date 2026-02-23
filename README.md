@@ -11,9 +11,9 @@
 
 ## Kodlamalık
 
->Bu satırdaki komutla arcgis pro içindeki python konsolunda hızlıca select by attributes yapabilirsin. Ben bunu o gün ediylediğim poligonlara hızlıca bakmak için kullanıyorum.
+>Bu satırdaki komutla arcgis pro içindeki python konsolunda hızlıca select by attributes yapabilirsin. Ben bunu o gün editlediğim poligonlara hızlıca bakmak için kullanıyorum.
 
     arcpy.management.SelectLayerByAttribute("detayli_ak", "NEW_SELECTION", "ilce = 2054 AND last_edited_user = 'user_name' AND last_edited_date > DATE '2026-02-23'")
 
->ilce kolonunda domain olduğu için çalışılan ilçenin UAVT kodunu yazmak gerekiyor. Sancaktepe için ilce = 2054 last_edited_date için tarih girildiğinde o tarihteki 00:00:00 satini kabul ediyor. Gece 12'den sonra yapılan >editlerin tümü görünür.
->BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM :D
+>ilce kolonunda domain kullanıldığı için çalışılan ilçenin UAVT kodunu yazmak gerekiyor. Sancaktepe için ilce = 2054 last_edited_date için tarih girildiğinde o tarihteki 00:00:00 satini kabul ediyor. Gece 12'den sonra yapılan >editlerin tümü görünür.
+>BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM

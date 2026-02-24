@@ -29,6 +29,8 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
 
 
 
+## Veri Temin Edilebilecek Linkler (Crawl)
+[MEB Özel Öğretim Kurumları Genel Müdürlüğü tüm özel öğretim kurumları listesi](https://ookgm.meb.gov.tr/kurumlar.php?sayfa=7&tur=okul&il=%C4%B0STANBUL&tur2=0) *Açık adres* içeren tablo bazlı veri bulunuyor. **crawl + geocode** ile haritaya alınabilir (15.10.2025 tarihli)
 ## Faydalı Linkler
 1. [Harita İstanbul](harita.istanbul)
 2. [İBB Şehir Haritası](https://sehirharitasiapi.ibb.gov.tr)

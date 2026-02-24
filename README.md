@@ -19,7 +19,7 @@
 >BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM
 
 ## Kontrol yöntemleri
-Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumları yazdırabliriz. alt_kullanim değeri için coded value domain'in kodlarını girerek kontrol etmek gerekiyor.
+Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumları yazdırabliriz. Bu, kontrol_ipa kolonu için çalıştırıldığında ilgili kayıtlara not düşen basit bir örnek. alt_kullanim değeri için coded value domain'in kodlarını girerek kontrol etmek gerekiyor.
         
         /*JavaScript*/
         if ($feature.alt_kullanim == "1" && IsEmpty($feature.detay_konut)) {

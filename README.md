@@ -20,7 +20,8 @@
 
 ## Kontrol yöntemleri
 Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumları yazdırabliriz. alt_kullanim değeri için coded value domain'in kodlarını girerek kontrol etmek gerekiyor.
-
+        
+        /*JavaScript*/
         if ($feature.alt_kullanim == "1" && IsEmpty($feature.detay_konut)) {
             return "DETAY_KONUT alanı boş bırakılamaz.";
         }

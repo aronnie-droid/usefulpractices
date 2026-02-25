@@ -23,13 +23,18 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
         
         //JavaScript
         /*Konut olarak girilmiş ve detay konut fieldi boş bırakılmış featureların kontrolü*/
+        //----------------------------------------------------------------------------------------------------
+        
         if ($feature.alt_kullanim == "1" && IsEmpty($feature.detay_konut)) {
             return "DETAY_KONUT alanı boş bırakılamaz.";
         }
         return null;
+        
         //-------------------------------------------------------------------------------------------------
         /*Alt Kullanım "1 KENTSEL KONUT ALANI" olarak girilmiş ve detay konut fieldi "2	APARTMAN (SİTE)",
         "4	REZİDANS (SİTE)", "6	VİLLA/MÜSTAKİL (SİTE)" olan fakat AD sütunu boş olanların kontrolü*/
+        //---------------------------------------------------------------------------------------------------
+        
         var mevcutNot = $feature.kontrol;
 
         var siteKodlari = ["2","4","6"];

@@ -29,17 +29,35 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
         
         /*JavaScript - Alt Kullanım "1 KENTSEL KONUT ALANI" olarak girilmiş ve detay konut fieldi "2	APARTMAN (SİTE)",
         "4	REZİDANS (SİTE)", "6	VİLLA/MÜSTAKİL (SİTE)" olan fakat AD sütunu boş olanların kontrolü*/
+        var mevcutNot = $feature.kontrol;
+
         var siteKodlari = ["2","4","6"];
 
-        if (
-            $feature.alt_kullanim == "1" &&
-            Includes(siteKodlari, $feature.detay_konut) &&
-            IsEmpty($feature.AD)
-        ) {
-            return "Ad girilmeli";
+        var konutMu = $feature.alt_kullanim == "1";
+        var siteTipi = Includes(siteKodlari, $feature.detay_konut);
+        var adBos = IsEmpty($feature.AD);
+
+        if (konutMu && siteTipi && adBos) {
+
+            var yeniMesaj = "Ad girilmeli";
+
+            // Eğer mevcut not boşsa direkt yaz
+            if (IsEmpty(mevcutNot)) {
+                return yeniMesaj;
+            }
+            // Eğer zaten aynı mesaj varsa tekrar ekleme
+            else if (Find(yeniMesaj, mevcutNot) > -1) {
+                return mevcutNot;
+            }
+            // Mevcut not varsa sonuna ekle
+            else {
+                return mevcutNot + " | " + yeniMesaj;
+            }
         }
 
-        return null;
+// Şart sağlanmıyorsa mevcut değeri koru
+return mevcutNot;
+        
 
 
 

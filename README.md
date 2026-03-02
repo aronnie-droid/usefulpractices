@@ -25,6 +25,9 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
 | 1 - Kentsel Konut Alanı| "detay_konut" kolonu boş olamaz. | Hazır |
 | 1 - Kentsel Konut Alanı| (Site) sınıfındaki konut alanlarında "ad" kolonu boş olamaz. | Hazır |
 | 8 - Ticaret Konut Alanı| (Site) sınıfındaki konut alanlarında "ad" kolonu boş olamaz. | **Hazır Değil** |
+| 8 - Ticaret Konut Alanı| "detay_konut" kolonu boş olamaz. | **Hazır Değil** |
+| 8 - Ticaret Konut Alanı| "detay_ticaret" kolonu boş olamaz. | **Hazır Değil** |
+| 8 - Ticaret Konut Alanı| "nacekodu" kolonu boş olamaz. | **Hazır Değil** |
         
         //JavaScript
         /*Konut olarak girilmiş ve detay konut fieldi boş bırakılmış featureların kontrolü*/

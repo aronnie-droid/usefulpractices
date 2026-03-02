@@ -31,22 +31,13 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
 | 8 - Ticaret Konut Alanı| "detay_ticaret" kolonu boş olamaz. | **Hazır Değil** |
 | 8 - Ticaret Konut Alanı| "nacekodu" kolonu boş olamaz. | **Hazır Değil** |
 
----
-        
-        
-        //JavaScript
-        /*Konut olarak girilmiş ve detay konut fieldi boş bırakılmış featureların kontrolü*/
-        //----------------------------------------------------------------------------------------------------
-        
+--- 
         if ($feature.alt_kullanim == "1" && IsEmpty($feature.detay_konut)) {
             return "DETAY_KONUT alanı boş bırakılamaz.";
         }
         return null;
         
         //-------------------------------------------------------------------------------------------------
-        /*Alt Kullanım "1 KENTSEL KONUT ALANI" olarak girilmiş ve detay konut fieldi "2	APARTMAN (SİTE)",
-        "4	REZİDANS (SİTE)", "6	VİLLA/MÜSTAKİL (SİTE)" olan fakat AD sütunu boş olanların kontrolü*/
-        //---------------------------------------------------------------------------------------------------
         
         var mevcutNot = $feature.kontrol;
 
@@ -77,6 +68,60 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
         // Şart sağlanmıyorsa mevcut değeri koru
         return mevcutNot;
 ---
+
+        var mevcutNot = $feature.kontrol_ipa;
+
+        var siteKodlari = ["2","4","6"];
+
+        var konutMu = $feature.alt_kullanim == "1";
+        var detayBos = IsEmpty($feature.detay_konut);
+        var siteTipi = Includes(siteKodlari, $feature.detay_konut);
+        var adBos = IsEmpty($feature.AD);
+
+        var mesajlar = [];
+
+        // KURAL 1 → Detay konut boş
+        if (konutMu && detayBos) {
+            Push(mesajlar, "Detay konut girilmeli");
+        }
+
+        // KURAL 2 → Site tipi + AD boş
+        if (konutMu && siteTipi && adBos) {
+            Push(mesajlar, "Ad girilmeli");
+        }
+
+        // Eğer yeni mesaj yoksa hiç dokunma
+        if (Count(mesajlar) == 0) {
+            return;
+        }
+
+        // Mesajları birleştir
+        var yeniMesaj = Concatenate(mesajlar, " | ");
+
+        var sonuc;
+
+        // Hücre boşsa direkt yaz
+        if (IsEmpty(mevcutNot)) {
+            sonuc = yeniMesaj;
+        }
+        else {
+
+            sonuc = mevcutNot;
+
+            // Her mesajı kontrol edip yoksa ekle
+            for (var m in mesajlar) {
+                if (Find(m, sonuc) == -1) {
+                    sonuc = sonuc + " | " + m;
+                }
+            }
+        }
+
+        // SADECE gerçekten değişiklik varsa update yap
+        if (sonuc != mevcutNot) {
+            return sonuc;
+        }
+
+        return;
 
 ## Veri Temin Edilebilecek Linkler (Crawl)
 [MEB Özel Öğretim Kurumları Genel Müdürlüğü tüm özel öğretim kurumları listesi](https://ookgm.meb.gov.tr/kurumlar.php?sayfa=7&tur=okul&il=%C4%B0STANBUL&tur2=0) *Açık adres* içeren tablo bazlı veri bulunuyor. **crawl + geocode** ile haritaya alınabilir (15.10.2025 tarihli)

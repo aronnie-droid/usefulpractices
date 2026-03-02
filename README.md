@@ -18,6 +18,8 @@
 >ilce kolonunda domain kullanıldığı için çalışılan ilçenin UAVT kodunu yazmak gerekiyor. Sancaktepe için ilce = 2054 last_edited_date için tarih girildiğinde o tarihteki 00:00:00 satini kabul ediyor. Gece 12'den sonra yapılan editlerin tümü görünür.
 >BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM
 
+---
+
 ## Kontrol yöntemleri
 Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumları yazdırabliriz. Bu, kontrol_ipa kolonu için çalıştırıldığında ilgili kayıtlara not düşen basit bir örnek. alt_kullanim değeri için coded value domain'in kodlarını girerek kontrol etmek gerekiyor. En çok girilen fonksiyondan en az girilen fonksiyona doğru çapraz tablo kontrollerini listeleyelim.
 | alt_kullanim           | Kural | Arcade |
@@ -28,6 +30,9 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
 | 8 - Ticaret Konut Alanı| "detay_konut" kolonu boş olamaz. | **Hazır Değil** |
 | 8 - Ticaret Konut Alanı| "detay_ticaret" kolonu boş olamaz. | **Hazır Değil** |
 | 8 - Ticaret Konut Alanı| "nacekodu" kolonu boş olamaz. | **Hazır Değil** |
+
+---
+        
         
         //JavaScript
         /*Konut olarak girilmiş ve detay konut fieldi boş bırakılmış featureların kontrolü*/
@@ -71,10 +76,7 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
 
         // Şart sağlanmıyorsa mevcut değeri koru
         return mevcutNot;
-        
-
-
-
+---
 
 ## Veri Temin Edilebilecek Linkler (Crawl)
 [MEB Özel Öğretim Kurumları Genel Müdürlüğü tüm özel öğretim kurumları listesi](https://ookgm.meb.gov.tr/kurumlar.php?sayfa=7&tur=okul&il=%C4%B0STANBUL&tur2=0) *Açık adres* içeren tablo bazlı veri bulunuyor. **crawl + geocode** ile haritaya alınabilir (15.10.2025 tarihli)

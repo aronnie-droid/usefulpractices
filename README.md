@@ -1,5 +1,7 @@
 # Meraklısınıa kolaylaştırıcı notlar
 
+## Notların düzenlenmiş halini projenin wiki sayfasında bulabilirsiniz. Artık burada kod snippetleri olacak.
+
 ## Gündelik
 
 - Google maps, Harita istanbul gibi panaromik görüntü sitelerinde sokak görünümündeyken **WASD** ve ok tuşlarıyla gezinme yapılabiliyor.

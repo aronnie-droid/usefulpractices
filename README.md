@@ -71,3 +71,5 @@ Veriyi AI ready şekilde hazırlamak ve bulundurmak. TR'de bununla ilgili başl�
 2. [İBB Şehir Haritası](https://sehirharitasiapi.ibb.gov.tr)
 3. [İBB Şehir Haritası API Reference](https://sehirharitasiapi.ibb.gov.tr/developer/index.html)
 4. [AI Ready Data Standards](https://www.ibm.com/think/topics/ai-ready-data)
+
+5. 

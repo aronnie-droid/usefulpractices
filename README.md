@@ -60,7 +60,7 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
 
 --- 
 ## Veri Temin Edilebilecek Linkler (Crawl)
-[MEB Özel Öğretim Kurumları Genel Müdürlüğü tüm özel öğretim kurumları listesi](https://ookgm.meb.gov.tr/kurumlar.php?sayfa=7&tur=okul&il=%C4%B0STANBUL&tur2=0) *Açık adres* içeren tablo bazlı veri bulunuyor. **crawl + geocode** ile haritaya alınabilir (15.10.2025 tarihli)
+[MEB Özel Öğretim Kurumları Genel Müdürlüğü tüm özel öğretim kurumları listesi](https://ookgm.meb.gov.tr/kurumlar.php?sayfa=7&tur=okul&il=%C4%B0STANBUL&tur2=0) *Açık adres* içeren tablo bazlı veri bulunuyor. **crawl + geocode** ile haritaya alınabilir (15.10.2025 tarihli) _Barış Öztürk: Özel eğitim kurumlarına ilişkin poi verisi altlik.gdb içerisinde mevcut olmalı._
 ## Projeye kapsamında uyulabilecek çerçeveler
 Veriyi AI ready şekilde hazırlamak ve bulundurmak. TR'de bununla ilgili başlık içeren bir standart çalışmasını henüz bulamadım. Varsa TR standardına, yoksa UK ya da EU standardına uymayı düşünebiliriz. Arazi kullanımı verisi üretilirken kullanılan tüm altlık veri setlerinin açık veri standardını sağladığı bir evrende veri üretme ve kontrol aşamasının büyük kısmının otomasyona tabi tutulması teorik olarak mümkün. *AGI olsaydı mümkündü?*
 >Birleşik Krallık hükümeti, kamu sektörü verilerini yapay zekaya hazır hale getirmek için bir çerçeve geliştirdi. Bu, hükümet veri kümelerinin yüksek kaliteli, iyi yönetilen ve kullanımı kolay olmasını sağlayarak yapay zekanın tüm potansiyelinin ortaya çıkarılmasına yardımcı olacaktır. Yapay zekaya hazır veri, doğru, eksiksiz, tutarlı, güvenli ve hem insanlar hem de makineler tarafından güvenilebilen ve anlaşılabilen meta verilerle zenginleştirilmiş veri anlamına gelir.

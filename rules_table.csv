@@ -1,0 +1,6 @@
+alt_kullanim,rule_type,field,operator,value,message
+1,required,detay_konut,is_empty,,Detay konut girilmeli
+1,must_be_empty,Detay_Ticaret,not_empty,,Detay_Ticaret boş olmalı
+8,required,NaceKodu,is_empty,,Nace kodu girilmeli
+8,conditional_required,AD,site_konut,,Ad girilmeli
+38,required,Detay_SosyalAltyapi,is_empty,,Detay_SosyalAltyapi girilmeli

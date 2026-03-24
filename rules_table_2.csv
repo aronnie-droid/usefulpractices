@@ -1,0 +1,16 @@
+alt_kullanim,condition_field,condition_operator,condition_value,check_field,check_operator,check_value,severity,category,message
+1,,always,,detay_konut,is_empty,,error,eksik,Detay konut girilmeli
+1,detay_konut,in,2|4|6,AD,is_empty,,error,eksik,Site alanlarında ad girilmeli
+1,,always,,Detay_Ticaret,not_empty,,warning,hatali,Detay_Ticaret boş olmalı
+8,,always,,detay_konut,is_empty,,error,eksik,Detay konut girilmeli
+8,NaceKodu,not_in,9|1|20|18|19,Detay_Ticaret,is_empty,,error,eksik,Detay Ticaret girilmeli
+8,,always,,NaceKodu,is_empty,,error,eksik,Nace kodu girilmeli
+8,detay_konut,in,2|4|6,AD,is_empty,,warning,eksik,Site alanlarında ad girilmeli
+38,,always,,Detay_SosyalAltyapi,is_empty,,error,eksik,Eğitim alanında detay sosyal altyapı girilmeli
+38,,always,,NaceKodu,is_empty,,error,eksik,Nace kodu girilmeli
+3,,always,,Detay_Ticaret,is_empty,,error,eksik,Detay ticaret girilmeli
+3,,always,,NaceKodu,is_empty,,error,eksik,Nace kodu girilmeli
+11,,always,,NaceKodu,starts_with,C|T,error,hatali,Sanayi alanında NACE C veya T ile başlamalı
+20,,always,,NaceKodu,is_empty,,error,eksik,Nace kodu girilmeli
+26,,always,,NaceKodu,is_empty,,error,eksik,Kamu kurumunda NACE girilmeli
+27,,always,,NaceKodu,is_empty,,error,eksik,Kamu kurumunda NACE girilmeli

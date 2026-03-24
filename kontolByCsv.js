@@ -11,6 +11,7 @@
 
     // ilgili kuralları filtrele
     var filteredRules = Filter(rules, "alt_kullanim = @alt");
+    // bu commit testi
 
     // loop
     for (var r in filteredRules) {

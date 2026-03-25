@@ -1,4 +1,4 @@
-# IPA Kontrol Sistemi – Ekip İçi Eğitim Notu
+# Arazi Kullanım Verisi Sistemi – Ekip İçi Eğitim Notu
 
 ## Amaç
 

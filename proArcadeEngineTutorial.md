@@ -303,9 +303,9 @@ Anlamı:
 
 Bu yapı ile:
 
-* Kontroller koddan ayrılmıştır
-* Kural yönetimi veri tabanına taşınmıştır
-* Sistem sürdürülebilir hale gelmiştir
+* Kontrol edilecek kurallar koddan ayrıldı.
+* Kural yönetimi veri tabanına taşınabilir hale geldi.
+* Kontrol sistematiği ölçeklenebilir ve sürdürülebilir bir yapıya ulaştı.
 
 ---
 
@@ -315,10 +315,4 @@ Kural güncellemeleri yapılmadan önce:
 
 * Domain tabloları kontrol edilmelidir
 * Kod ve metin (text) veri tipleri dikkate alınmalıdır
-
----
-
-Bu yapı ile birlikte kontrol geliştirme yaklaşımı:
-
-“Arcade kodu yazmak” yerine
-“kural tanımlamak” olarak değişmiştir.
+* Coded Domain Value konsepti iyice anlaşılmalıdır. [kaynak](https://support.esri.com/en-us/gis-dictionary/coded-value-domain)

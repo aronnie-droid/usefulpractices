@@ -31,3 +31,6 @@ Cache/
 # OS
 .DS_Store
 Thumbs.db
+
+schema.ini
+full_rule_table.csv.xml

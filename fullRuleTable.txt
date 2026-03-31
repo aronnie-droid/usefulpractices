@@ -1,0 +1,185 @@
+alt_kullanim;condition_field;condition_operator;condition_value;check_field;check_operator;check_value;severity;category;message
+25;;always;;detay_resmi;is_empty;;error;eksik;Askeri alanda detay resmi kurum girilmeli
+25;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+25;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+26;;always;;detay_resmi;is_empty;;error;eksik;Yerel idare alanında detay resmi kurum girilmeli
+26;;always;;nacekodu;is_empty;;error;eksik;Kamu kurumunda NACE girilmeli
+26;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+27;;always;;detay_resmi;is_empty;;error;eksik;Merkezi idare alanında detay resmi kurum girilmeli
+27;;always;;nacekodu;is_empty;;error;eksik;Kamu kurumunda NACE girilmeli
+27;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+38;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+38;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+38;;always;;ad;is_empty;;error;eksik;Okul adı girilmeli
+39;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+39;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+39;;always;;ad;is_empty;;error;eksik;Okul adı girilmeli
+40;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+40;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+40;;always;;ad;is_empty;;error;eksik;Okul adı girilmeli
+41;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+41;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+41;;always;;ad;is_empty;;error;eksik;Okul adı girilmeli
+42;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+42;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+42;;always;;ad;is_empty;;error;eksik;Okul adı girilmeli
+43;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+43;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+43;;always;;ad;is_empty;;error;eksik;Okul adı girilmeli
+44;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+44;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+44;;always;;ad;is_empty;;error;eksik;Üniversite adı girilmeli
+45;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+45;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+45;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+46;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+46;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+46;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+47;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+47;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+47;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+48;;always;;ad;is_empty;;error;eksik;İbadethane adı girilmeli
+49;;always;;ad;is_empty;;error;eksik;Cemevi adı girilmeli
+50;;always;;ad;is_empty;;error;eksik;Kilise adı girilmeli
+51;;always;;ad;is_empty;;error;eksik;Sinagog adı girilmeli
+52;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Sosyal tesiste detay sosyal altyapı girilmeli
+52;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+52;;always;;ad;is_empty;;error;eksik;Tesis adı girilmeli
+53;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Kültürel tesiste detay sosyal altyapı girilmeli
+53;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+53;;always;;ad;is_empty;;error;eksik;Tesis adı girilmeli
+54;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Fuar-Kongre alanında detay sosyal altyapı girilmeli
+54;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+54;;always;;ad;is_empty;;error;eksik;Alan adı girilmeli
+55;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Yaşlı bakımevinde detay sosyal altyapı girilmeli
+55;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+55;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+56;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Öğrenci yurdunda detay sosyal altyapı girilmeli
+56;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+56;;always;;ad;is_empty;;error;eksik;Yurt adı girilmeli
+57;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Kreş/Bakımevinde detay sosyal altyapı girilmeli
+57;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+57;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+58;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Çocuk yurdunda detay sosyal altyapı girilmeli
+58;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+58;;always;;ad;is_empty;;error;eksik;Yurt adı girilmeli
+59;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Sağlık tesisinde detay sosyal altyapı girilmeli
+59;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+59;;always;;ad;is_empty;;error;eksik;Tesis adı girilmeli
+60;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Sağlık tesisinde detay sosyal altyapı girilmeli
+60;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+60;;always;;ad;is_empty;;error;eksik;Tesis adı girilmeli
+61;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Sağlık tesisinde detay sosyal altyapı girilmeli
+61;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+61;;always;;ad;is_empty;;error;eksik;Hastane adı girilmeli
+62;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Spor alanında detay sosyal altyapı girilmeli
+62;;always;;ad;is_empty;;error;eksik;Spor alanı adı girilmeli
+63;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Spor alanında detay sosyal altyapı girilmeli
+63;;always;;ad;is_empty;;error;eksik;Spor tesisi adı girilmeli
+64;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Spor alanında detay sosyal altyapı girilmeli
+64;;always;;ad;is_empty;;error;eksik;Kompleks adı girilmeli
+65;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Spor alanında detay sosyal altyapı girilmeli
+65;;always;;ad;is_empty;;error;eksik;Spor alanı adı girilmeli
+108;;always;;ad;is_empty;;error;eksik;Tesis adı girilmeli
+109;;always;;ad;is_empty;;error;eksik;Tesis adı girilmeli
+111;;always;;ad;is_empty;;error;eksik;Tesis adı girilmeli
+125;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+125;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+125;;always;;ad;is_empty;;error;eksik;Okul adı girilmeli
+126;;always;;detay_sosyalaltyapi;is_empty;;error;eksik;Eğitim alanında detay sosyal altyapı girilmeli
+126;;always;;nacekodu;is_empty;;error;eksik;Nace kodu girilmeli
+126;;always;;ad;is_empty;;error;eksik;Kurum adı girilmeli
+1;;always;;detay_ticaret;not_empty;;error;fazla_veri;Konut alanında ticaret detayı olamaz
+1;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Konut alanında sosyal altyapı detayı olamaz
+1;;always;;detay_resmi;not_empty;;error;fazla_veri;Konut alanında resmi kurum detayı olamaz
+1;;always;;nacekodu;not_empty;;error;fazla_veri;Konut alanında NACE kodu olamaz
+2;;always;;detay_ticaret;not_empty;;error;fazla_veri;Konut alanında ticaret detayı olamaz
+2;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Konut alanında sosyal altyapı detayı olamaz
+2;;always;;detay_resmi;not_empty;;error;fazla_veri;Konut alanında resmi kurum detayı olamaz
+2;;always;;nacekodu;not_empty;;error;fazla_veri;Konut alanında NACE kodu olamaz
+3;;always;;detay_konut;not_empty;;error;fazla_veri;Ticaret alanında konut detayı olamaz
+3;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Ticaret alanında sosyal altyapı detayı olamaz
+3;;always;;detay_resmi;not_empty;;error;fazla_veri;Ticaret alanında resmi kurum detayı olamaz
+4;;always;;detay_konut;not_empty;;error;fazla_veri;Turizm alanında konut detayı olamaz
+4;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Turizm alanında sosyal altyapı detayı olamaz
+4;;always;;detay_resmi;not_empty;;error;fazla_veri;Turizm alanında resmi kurum detayı olamaz
+5;;always;;detay_konut;not_empty;;error;fazla_veri;Günübirlik tesiste konut detayı olamaz
+5;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Günübirlik tesiste sosyal altyapı detayı olamaz
+5;;always;;detay_resmi;not_empty;;error;fazla_veri;Günübirlik tesiste resmi kurum detayı olamaz
+6;;always;;detay_konut;not_empty;;error;fazla_veri;Pazar alanında konut detayı olamaz
+6;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Pazar alanında sosyal altyapı detayı olamaz
+6;;always;;detay_resmi;not_empty;;error;fazla_veri;Pazar alanında resmi kurum detayı olamaz
+7;;always;;detay_konut;not_empty;;error;fazla_veri;Akaryakıt istasyonunda konut detayı olamaz
+7;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Akaryakıt istasyonunda sosyal altyapı detayı olamaz
+7;;always;;detay_resmi;not_empty;;error;fazla_veri;Akaryakıt istasyonunda resmi kurum detayı olamaz
+8;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Ticaret-Konut alanında sosyal altyapı detayı olamaz
+8;;always;;detay_resmi;not_empty;;error;fazla_veri;Ticaret-Konut alanında resmi kurum detayı olamaz
+9;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Karma kullanım alanında sosyal altyapı detayı olamaz
+9;;always;;detay_resmi;not_empty;;error;fazla_veri;Karma kullanım alanında resmi kurum detayı olamaz
+10;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Karma kullanım alanında sosyal altyapı detayı olamaz
+10;;always;;detay_resmi;not_empty;;error;fazla_veri;Karma kullanım alanında resmi kurum detayı olamaz
+11;;always;;detay_konut;not_empty;;error;fazla_veri;Sanayi alanında konut detayı olamaz
+11;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Sanayi alanında sosyal altyapı detayı olamaz
+11;;always;;detay_resmi;not_empty;;error;fazla_veri;Sanayi alanında resmi kurum detayı olamaz
+12;;always;;detay_konut;not_empty;;error;fazla_veri;Lojistik alanında konut detayı olamaz
+12;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Lojistik alanında sosyal altyapı detayı olamaz
+12;;always;;detay_resmi;not_empty;;error;fazla_veri;Lojistik alanında resmi kurum detayı olamaz
+13;;always;;detay_konut;not_empty;;error;fazla_veri;OSB alanında konut detayı olamaz
+13;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;OSB alanında sosyal altyapı detayı olamaz
+13;;always;;detay_resmi;not_empty;;error;fazla_veri;OSB alanında resmi kurum detayı olamaz
+19;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Sanayi-Konut alanında sosyal altyapı detayı olamaz
+19;;always;;detay_resmi;not_empty;;error;fazla_veri;Sanayi-Konut alanında resmi kurum detayı olamaz
+20;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Sanayi-Ticaret alanında sosyal altyapı detayı olamaz
+20;;always;;detay_resmi;not_empty;;error;fazla_veri;Sanayi-Ticaret alanında resmi kurum detayı olamaz
+21;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Karma kullanım alanında sosyal altyapı detayı olamaz
+21;;always;;detay_resmi;not_empty;;error;fazla_veri;Karma kullanım alanında resmi kurum detayı olamaz
+25;;always;;detay_konut;not_empty;;error;fazla_veri;Resmi kurum alanında konut detayı olamaz
+25;;always;;detay_ticaret;not_empty;;error;fazla_veri;Resmi kurum alanında ticaret detayı olamaz
+25;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Resmi kurum alanında sosyal altyapı detayı olamaz
+26;;always;;detay_konut;not_empty;;error;fazla_veri;Resmi kurum alanında konut detayı olamaz
+26;;always;;detay_ticaret;not_empty;;error;fazla_veri;Resmi kurum alanında ticaret detayı olamaz
+26;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Resmi kurum alanında sosyal altyapı detayı olamaz
+27;;always;;detay_konut;not_empty;;error;fazla_veri;Resmi kurum alanında konut detayı olamaz
+27;;always;;detay_ticaret;not_empty;;error;fazla_veri;Resmi kurum alanında ticaret detayı olamaz
+27;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Resmi kurum alanında sosyal altyapı detayı olamaz
+30;;always;;detay_konut;not_empty;;error;fazla_veri;Park alanında konut detayı olamaz
+30;;always;;detay_ticaret;not_empty;;error;fazla_veri;Park alanında ticaret detayı olamaz
+30;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Park alanında sosyal altyapı detayı olamaz
+30;;always;;detay_resmi;not_empty;;error;fazla_veri;Park alanında resmi kurum detayı olamaz
+31;;always;;detay_konut;not_empty;;error;fazla_veri;Kent parkında konut detayı olamaz
+31;;always;;detay_ticaret;not_empty;;error;fazla_veri;Kent parkında ticaret detayı olamaz
+31;;always;;detay_sosyalaltyapi;not_empty;;error;fazla_veri;Kent parkında sosyal altyapı detayı olamaz
+31;;always;;detay_resmi;not_empty;;error;fazla_veri;Kent parkında resmi kurum detayı olamaz
+38;;always;;detay_konut;not_empty;;error;fazla_veri;Eğitim alanında konut detayı olamaz
+38;;always;;detay_ticaret;not_empty;;error;fazla_veri;Eğitim alanında ticaret detayı olamaz
+38;;always;;detay_resmi;not_empty;;error;fazla_veri;Eğitim alanında resmi kurum detayı olamaz
+39;;always;;detay_konut;not_empty;;error;fazla_veri;Eğitim alanında konut detayı olamaz
+39;;always;;detay_ticaret;not_empty;;error;fazla_veri;Eğitim alanında ticaret detayı olamaz
+39;;always;;detay_resmi;not_empty;;error;fazla_veri;Eğitim alanında resmi kurum detayı olamaz
+40;;always;;detay_konut;not_empty;;error;fazla_veri;Eğitim alanında konut detayı olamaz
+40;;always;;detay_ticaret;not_empty;;error;fazla_veri;Eğitim alanında ticaret detayı olamaz
+40;;always;;detay_resmi;not_empty;;error;fazla_veri;Eğitim alanında resmi kurum detayı olamaz
+44;;always;;detay_konut;not_empty;;error;fazla_veri;Üniversite alanında konut detayı olamaz
+44;;always;;detay_ticaret;not_empty;;error;fazla_veri;Üniversite alanında ticaret detayı olamaz
+44;;always;;detay_resmi;not_empty;;error;fazla_veri;Üniversite alanında resmi kurum detayı olamaz
+48;;always;;detay_konut;not_empty;;error;fazla_veri;Dini tesis alanında konut detayı olamaz
+48;;always;;detay_ticaret;not_empty;;error;fazla_veri;Dini tesis alanında ticaret detayı olamaz
+48;;always;;detay_resmi;not_empty;;error;fazla_veri;Dini tesis alanında resmi kurum detayı olamaz
+49;;always;;detay_konut;not_empty;;error;fazla_veri;Dini tesis alanında konut detayı olamaz
+49;;always;;detay_ticaret;not_empty;;error;fazla_veri;Dini tesis alanında ticaret detayı olamaz
+49;;always;;detay_resmi;not_empty;;error;fazla_veri;Dini tesis alanında resmi kurum detayı olamaz
+50;;always;;detay_konut;not_empty;;error;fazla_veri;Dini tesis alanında konut detayı olamaz
+50;;always;;detay_ticaret;not_empty;;error;fazla_veri;Dini tesis alanında ticaret detayı olamaz
+50;;always;;detay_resmi;not_empty;;error;fazla_veri;Dini tesis alanında resmi kurum detayı olamaz
+52;;always;;detay_konut;not_empty;;error;fazla_veri;Sosyal tesis alanında konut detayı olamaz
+52;;always;;detay_ticaret;not_empty;;error;fazla_veri;Sosyal tesis alanında ticaret detayı olamaz
+52;;always;;detay_resmi;not_empty;;error;fazla_veri;Sosyal tesis alanında resmi kurum detayı olamaz
+59;;always;;detay_konut;not_empty;;error;fazla_veri;Sağlık tesis alanında konut detayı olamaz
+59;;always;;detay_ticaret;not_empty;;error;fazla_veri;Sağlık tesis alanında ticaret detayı olamaz
+59;;always;;detay_resmi;not_empty;;error;fazla_veri;Sağlık tesis alanında resmi kurum detayı olamaz
+62;;always;;detay_konut;not_empty;;error;fazla_veri;Spor alanında konut detayı olamaz
+62;;always;;detay_ticaret;not_empty;;error;fazla_veri;Spor alanında ticaret detayı olamaz
+62;;always;;detay_resmi;not_empty;;error;fazla_veri;Spor alanında resmi kurum detayı olamaz
+125;;always;;detay_konut;not_empty;;error;fazla_veri;Eğitim alanında konut detayı olamaz
+125;;always;;detay_ticaret;not_empty;;error;fazla_veri;Eğitim alanında ticaret detayı olamaz
+125;;always;;detay_resmi;not_empty;;error;fazla_veri;Eğitim alanında resmi kurum detayı olamaz
